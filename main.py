@@ -11,4 +11,6 @@ def DESV(data):
 if __name__ == '__main__':
     input_data = input("Ingresa los datos separados por espacios: ")
     data = [float(x) for x in input_data.split()]
-    print("la media y la Desviación Estándar son:", DESV(data))
+    media, desv= DESV(data)
+    print("La Media es:", media)
+    print("La Desviación Estándar es:", desv)
